@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main{
+    background-image: url("https://images.moneycontrol.com/static-mcnews/2024/01/Sensex_up_higher-3.jpg?impolicy=website&width=1600&height=900");
+    background-size: cover;
+    padding: ;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+.box{
+    /* margin-left:50vw;
+    margin-top: 50vh; */
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid black;
+    padding-top: ;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(107, 104, 104, 0.425);
+    backdrop-filter: blur(5px);
+
+    border: 2px solid white;
+}
+/* #box1{
+    height: 10vh;
+    width: 40vw;
+}
+#box2{
+    margin-top: 10vh;
+    height: 10vh;
+    width: 40vw;
+} */
+.inside-box{
+    /* display: flex; */
+    padding: 10px;
+    height: 30%;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: rgb(42, 8, 236);
+    border: none;
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
