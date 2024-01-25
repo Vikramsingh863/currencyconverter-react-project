@@ -14,7 +14,7 @@ function InputBox({
     
 
 }) {
-    console.log("ss")
+    
     console.log(currencyOption)
 
     return (
