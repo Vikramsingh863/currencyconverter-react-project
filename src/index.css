@@ -3,26 +3,29 @@
 @tailwind utilities;
 
 .main{
-    background-image: url("https://images.moneycontrol.com/static-mcnews/2024/01/Sensex_up_higher-3.jpg?impolicy=website&width=1600&height=900");
+    background-image: url("https://media.istockphoto.com/id/1322201350/photo/digitally-enhanced-shot-of-a-graph-showing-the-ups-and-downs-shares-on-the-stock-market.jpg?s=612x612&w=0&k=20&c=XRsOnrdHQIoqaolR00ganJACUpCxD4JCELt3N3Mm3tk=");
     background-size: cover;
-    padding: ;
+    
     height: 100vh;
     width: 100vw;
     box-sizing: border-box;
     border: 2px solid black;
+    padding-left: 25%;
+    padding-top: 12.5%;
 }
 .box{
     /* margin-left:50vw;
     margin-top: 50vh; */
-    height: 50vh;
-    width: 50vw;
-    border: 1px solid black;
-    padding-top: ;
+    height: 60vh;
+    width: 60vw;
+    position: relative;
+
+
     text-align: center;
     box-shadow: 3px 3px 3px rgba(107, 104, 104, 0.425);
     backdrop-filter: blur(5px);
-
-    border: 2px solid white;
+    border-radius: 10px;
+ 
 }
 /* #box1{
     height: 10vh;
@@ -39,14 +42,16 @@
     height: 30%;
     width: 80%;
     margin: auto;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     background-color: white;
     border-radius: 10px;
+    
 }
 .upper{
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
+    
 }
 .lower{
     display: flex;
@@ -55,12 +60,34 @@
 .btn{
     background-color: rgb(42, 8, 236);
     border: none;
-    width: 70%;
+    width: 80%;
     margin: auto;
     border-radius: 15px;
-    height: 10vh;
+    height: 8vh;
     
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/* .buttons{
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    background-color: blue;  
+} */
+.buttons-style{
+    height: 8vh;
+    width: 20%;
+    background-color: blue; 
+    border-radius: 10px;
+    
+}
+.contain{
+    
+    position: absolute;
+    top: 10%;
+    
+    
+    height: 60vh;
+    width: 60vw;
 }
